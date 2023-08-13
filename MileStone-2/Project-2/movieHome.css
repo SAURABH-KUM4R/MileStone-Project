@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(118, 81, 253);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(62, 30, 240);
+    color: white;
+    padding: 20px;
+}
+
+header input {
+    width: 50rem;
+    padding: 10px;
+}
+
+/* Display Card */
+.showList {
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+}
+
+.card {
+    background-color: rgb(161, 105, 252);
+    margin: 10px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 12rem;
+    height: 20rem;
+}
+.card img {
+    height: 13rem;
+    border-radius: 5px;
+    width: 9rem;
+}
+
+.card p {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.card button {
+    width: 11rem;
+    height: 2rem;
+    background-color: rgb(253, 54, 54);
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border: 0.5px solid black;
+}
