@@ -1,0 +1,41 @@
+.container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+}
+
+.card {
+    background-color: rgb(161, 105, 252);
+    margin: 10px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 12rem;
+    height: 11.5rem;
+}
+
+.card h2 {
+    margin: 50px 50px 10px 0;
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.card button {
+    margin: 7px 0 2px 0;
+    width: 90%;
+    height: 2rem;
+    background-color: rgb(47, 241, 255);
+    border-radius: 7px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.card button:hover {
+    font-size: 15px;
+    background-color: rgb(43, 198, 209);
+}
